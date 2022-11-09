@@ -1,0 +1,113 @@
+.product-loc {
+    width: 100%;
+    height: 665px;
+    left: -2px;
+    top: 2887px;
+    background: url(../images/Rectangle\ 245.png) no-repeat;
+    background-size: 100%;
+    filter: drop-shadow(0px 40px 40px rgba(43, 40, 40, 0.6));
+}
+.foot-product{
+    width: 100%;
+    height: 195px;
+    display: flex;
+    padding: 0 372px 0 233px;
+    align-items: center;
+    justify-content: space-between;
+    left: -2px;
+    top: 3552px;
+    background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+}
+.product-card-info{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    height: 600px;
+}
+.product-card-info a{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.product-card-info a > img{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 100%;
+    /* text-align: center; */
+    /* justify-content: center; */
+    padding: 10px;
+}
+.product-card-info a > p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.product_card-block{
+    display: flex;
+    width: 1210px;
+    height: 399px;
+    left: 118px;
+    top: 268px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+}
+.product-left-block{
+    width: 50%;
+    background: url(../images/Rectangle\ 7.png) no-repeat;
+    height: 100%;
+    background-size: 100%;
+}
+.product-right-block{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    padding: 50px;
+    align-content: space-between;
+}
+.product-logo-text{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.product-text{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;     
+    color: #CFCFCF;
+}
+.price-product{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 20px 0;
+}
+.poduct-rig_block2-span{
+    display: flex;
+    font-family: 'Gilroy';
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 300;
+    /* font-size: 12px; */
+    line-height: 14px;
+    padding: 5px 0 5px 0;
+    color: #FFFFFF;
+}
+.navi-p-product{
+    content: '';
+    width: 32%;
+    display: flex;
+    position: absolute;
+    height: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
