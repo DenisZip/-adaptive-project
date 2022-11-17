@@ -1,0 +1,206 @@
+.login{
+    display: flex;
+}
+.delivery-info{
+    width: 800px;
+    display: grid;
+    padding: 0 0 0 30px;
+    height: 200px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    margin: 30px 0 0;
+    align-content: space-evenly;
+}
+.delivery-info > p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;     
+    color: #FFFFFF;
+}
+.delivery-info form > input{
+    background: none;
+    padding: 13px 0px 13px 15px;
+    /* border: 1px solid; */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.delivery-info form > input, ::placeholder {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+    color: #FFFFFF;
+}
+.b2{
+    height: 456px;
+}
+.b2 > span{
+    display: flex;
+    height: 100%;
+    align-items: center; 
+}
+.b2 span> a{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #72A479;
+    padding: 15px;
+}
+.b2 span > .b2-span_a1{
+    border-radius: 10px 0 0 10px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+}
+
+.b2 span > .b2-span_a2{
+    border-radius: 0 10px 10px 0;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+}
+.b2 span > img{
+    margin: 0 5px;
+} 
+.b2 span > p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.b2 form > input{
+    margin: 5px 0;
+}
+.b2-form1{
+    width: 404px;
+}
+.b2-form2, .b2-form4, .b2-form5{
+    width: 174px;
+}
+.b2-form3{
+    width: 225px;
+}
+.b2-form6{
+    width: 582px;
+}
+.b3-button {
+    display: flex;
+    border: 1px solid #72A479;
+    border-radius: 10px;
+    width: 544px;
+}
+
+
+  .btn-submit {
+    width: 184px;
+    height: 59px;
+    border: none;
+    background: no-repeat;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;    
+  }
+  .btn-submit:hover {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px 0px 0px 10px;
+  }
+  .submit2:hover{
+    border-radius: 0px;
+  }
+  .submit3:hover{
+    border-radius: 0 10px 10px 0;
+  }
+  .btn-submit:active {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px 0px 0px 10px;
+  }
+  .submit2:active{
+    border-radius: 0px;
+  }
+  .btn-submit:focus, .btn-submit:active:focus {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px 0px 0px 10px;
+  }
+  .submit2:focus, .submit2:active:focus {
+    border-radius: 0px;
+  }
+  .submit3:focus, .submit3:active:focus {
+    border-radius: 0 10px 10px 0;
+  }
+.submit2, .submit3{
+    border-left: 1px solid #72A479;
+}
+.b3{
+    height: 249px;
+}
+.b4{
+    height: 370px;
+}
+.b5{
+    height: 85px;
+}
+.b4-button{
+    display: flex;
+    align-items: center;
+}
+.b4-button> div{
+    display: flex;
+    border: 1px solid #72A479;
+    border-radius: 10px;
+    /* width: 347px; */
+    width: 300px;
+}
+.b4-button form > input{
+    padding: 20px;
+    text-align: centers;
+    width: 173px;
+    width: 185px;
+    margin: 0 0 0 20px;
+}
+.b4 form > div{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 319px;
+    padding: 11px;
+}
+.b4 .basket-blo_inf-script > button{
+    background: none;
+}
+.b5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.b5 > label{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.b5 > a{
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 30px;
+}
+/* -----------ard pick----------- */
+.cart-pickup2{
+    height: 302px;
+}
+/*\ -----------ard pick----------- \*/
