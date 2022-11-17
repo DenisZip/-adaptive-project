@@ -1,0 +1,367 @@
+@media screen and (max-width: 1200px){
+    .header_search form{
+        width: 340px;
+    }
+    .header_search{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+    .home-block {
+        height: 456px;
+    }
+    .home-block >.color-block {
+        height: 456px;
+    } 
+    .nav-block, .nav-color {
+        height: 456px;
+    }
+    .block-left {
+        width: 40%;
+        padding: 40px 55px;
+    }
+    .block-left > p {
+        font-size: 13px;
+    }
+    .block-right > div {
+        width: 196px;
+        height: 196px;
+        padding: 45px 0;
+    }
+    .block-right {
+        display: grid;
+        padding: 0 30px 0 233px;
+    }
+    .location-block > div {
+        margin: 0% 0 0 15%;
+    }
+    .location {
+        height: 720px;
+    }
+    /*/ --------------product-------------- /*/
+    .product-loc {
+        width: 100%;
+        height: 417px;
+    }
+    .product_card-block {
+        display: flex;
+        width: 730px;
+    }
+    /*\ --------------product-------------- \*/
+    /*/ --------------backet-------------- /*/
+    .basket-block_info2-info {
+        width: 920px;
+    }
+    .basket-block-info1 {
+        width: 770px;
+    }
+    .basket-block-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+    .basket-block-info3 {
+        padding: 50px 0 50px 0;
+    }
+    /*\ --------------backet-------------- \*/
+}
+@media screen and (max-width: 950px){
+    .block-right {
+        display: grid;
+        padding: 0 30px 0 40px;
+    }
+    .header_search form {
+        width: 250px;
+    }
+    .location {
+        height: 615px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    header{
+        height: 142px;
+        width: 100%;
+        padding: 0 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 200px;
+    }
+    .header_search form {
+        width: 90%;
+    }
+    .desk-header{
+        display: none;
+    }
+    .phone-header{
+        display: block;
+    }
+    .phone-header > div{
+        align-items: center;
+    }
+    .menu-medi{
+        width: 40px;
+    }
+    .header_search input {
+        width: 277px;
+        height: 42px;
+    }
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+        background: #65906C;
+        border-radius: 50px;
+    }
+    .header_search form {
+        margin-top: 20px;
+    }
+    .phone{
+        display: none;
+    }   
+    .kou{
+        width: 62px;
+        height: 56px;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        padding: 7px;
+    }
+    .kou > a{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .kou > br{
+        margin: 0px 1px 0px;
+        padding: 1px 25px;
+    }
+    .kou > a{
+        background: none;
+        width: 100%;
+    }
+    .home-text-logo_gl-text > img, .home-text-logo_fon-text > img {
+        display: flex;
+        width: 220px;
+    }
+    .home-text-logo > .home-text-logo_gl-text, .home-text-logo_fon-text {
+        padding: 0;
+    }    
+    .home-block{
+        height: 174px;
+    }
+    .home-block >.color-block {
+        content: '';
+        width: 100%;
+        height: 174px;
+        z-index: 1;
+        background: linear-gradient(90deg, #211F20 0%, rgba(68, 64, 63, 0) 100%);
+    }
+    .button-block a > span {
+        font-family: ZingRustLH1Demo-Fill;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 109.2%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .navi {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 79px;
+        overflow: hidden;
+        left: 0px;
+        padding: 0;
+        align-items: center;
+        top: calc(50% - 78px/2 - 1251.5px);
+        background: rgba(255, 255, 255, 0.01);
+        transition: 0.5s;
+    }
+    .nav-coffe {
+        display: none;
+    }
+    .location {
+        height: 1021px;
+        margin-top: -2px;
+        background: url(../images/lock_phone.png 
+        ) no-repeat;
+        background-size: 100%;
+        filter: drop-shadow(0px 40px 40px rgba(43, 40, 40, 0.6));
+    }
+    .location-block > div {
+        position: absolute;
+        width: 335px;
+        height: 465px;
+        /* margin: 11% 0 0 15%; */
+        margin: 0 27px;
+        padding: 40px 0 0 40px;
+        background: #2E2B2C;
+        box-shadow: 0px 0px 70px rgb(0 0 0 / 15%);
+        border-radius: 15px;
+    }
+    .location-info-contact {
+        display: inline-block;
+        justify-content: space-around;
+    }
+    .contact-text{
+        margin: 35px 0 0;
+    }
+    .contact-siti {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 4% 10%;
+    }
+    .product-image {
+        width: 330px;
+    }
+    .product-info {
+        width: 330px;
+    }
+    .product-info > .ws{
+        margin-left: 230px;
+        margin-top: -20px;
+    }
+    .actual-price {
+        margin-left: 140px;
+        margin-top: -64px;
+    }
+    .foot-home {
+        display: grid;
+        padding: 0 30px 0 233px;
+    }
+    .fot-text-p, .foot-home div > a{
+        font-size: 8px;
+    }
+    .foot-home div > a{
+        display: none;
+    }
+    .foot-home > .a-fot-nav{
+        display: none;
+    }
+    .a-fot-nav_phone{
+        display: block;
+    }
+    /*/ --------------product-------------- /*/
+    
+    .product_card-block {
+        display: grid;
+        width: 90%;
+        height: 497px;
+        /* left: 118px; */
+        /* top: 268px; */
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        border-radius: 10px;
+    }
+    .product-left-block {
+        width: 100%;
+        padding: 0px 0 170px;
+    }
+    .product-right-block {
+        width: 100%;
+        height: 60%;
+        display: grid;
+        padding: 0px;
+        align-content: space-between;
+    }    
+    .product_right-block1{
+        text-align: center;
+    }
+    .price-product{
+        margin: 0;
+    }
+    .product-card-info {
+        display: flex;
+    }
+    .product-card-info .product-card-nav {
+        position: absolute;
+        width: 85%;
+    }
+    .product-card-info .product-card-nav  > p{
+        display: none;
+    }
+    .product-card-info a > img {
+        background: linear-gradient(114.93deg, #404240 5.11%, #504b4a 94%);
+    }
+    .actual-price > a{
+        position: relative;
+    }
+    .product-loc {
+        background: url(../images/Rectangle\ 246.jpg) no-repeat;
+    }
+    /*\ --------------product-------------- \*/
+    /*/ --------------backet-------------- /*/
+    .baskt-block {
+        display: block;
+        padding: 0 0 30px;
+    }
+    .bas_bl-info-text2{
+        display: none;
+    }
+    .basket-block-info2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .basket-block_info2-info {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .basket-block-info1 {
+        width: 100%;
+    }
+    .basket-block-info1 div> img {
+        margin: 0;
+    }
+    .basket-blo_inf-script {
+        padding: 0;
+    }
+    .basket-block-logo {
+        width: 95%;
+
+        display: flex;
+        align-items: flex-start;
+        height: 130px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .basket-block-info3 {
+        padding: 50px 0 50px 0;
+    }
+    /*\ --------------backet-------------- \*/
+    /*/ --------------delivery-------------- /*/
+    .delivery-info form > input {
+        width: 270px;
+        height: 35px;
+    }
+    .b3-button {
+        width: 184px;
+        flex-wrap: wrap;
+    }
+    .b4-button {
+        flex-wrap: wrap;
+    }
+    /*\ --------------delivery-------------- \*/
+    .Delivery-block > .delivery_block-info {
+        display: flex;
+        width: 75%;
+        height: 660px;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Delivery-block {
+        margin-top: 0;
+        padding: 20px 0 427px;
+    }
+}
+@media screen and (max-width: 300px){
+    .location-block > div {
+        width: 236px;
+    }
+}
