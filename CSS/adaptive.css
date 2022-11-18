@@ -347,6 +347,7 @@
         flex-wrap: wrap;
     }
     /*\ --------------delivery-------------- \*/
+    /*/ --------------Delivery-terms-------- /*/
     .Delivery-block > .delivery_block-info {
         display: flex;
         width: 75%;
@@ -357,8 +358,16 @@
     }
     .Delivery-block {
         margin-top: 0;
-        padding: 20px 0 427px;
+        padding: 21px 0 160px;
     }
+    summary {
+        font-size: 13px;
+    }
+    summary ~ * {
+        font-size: 12px;
+        padding: 13px;
+    }
+    /*\ --------------Delivery-terms-------------- \*/
 }
 @media screen and (max-width: 300px){
     .location-block > div {
